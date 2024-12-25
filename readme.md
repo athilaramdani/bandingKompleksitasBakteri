@@ -19,7 +19,9 @@ Bandung, 2024-2025
 
 Dalam studi ini, kami menganalisis perkembangan populasi bakteri yang tumbuh secara eksponensial. Misalnya, sebuah populasi bakteri memiliki ukuran awal \( P_0 \) dan berkembang dengan laju pertumbuhan \( r \) setiap satuan waktu \( n \). Maka populasi pada waktu \( n \) (\( P_n \)) dapat dihitung menggunakan formula:
 
-\[ P_n = P_0 \times r^n \]
+\[ P_n = P_0 . r^n \]
+<img src="assets/images/ilustrasi.png" alt="Ilustrasi Perubahan Populasi Bakteri" width="500">
+
 
 Kami mengimplementasikan algoritma iteratif dan rekursif untuk menghitung populasi ini, menganalisis kompleksitas waktu, dan menampilkan grafik perbandingan waktu eksekusi.
 
@@ -118,9 +120,16 @@ plt.grid()
 plt.show()
 ```
 
+<img src="assets/images/dataset.png" alt="hasil dataset perbandingan" width="500">
+
 ### Visualisasi Hasil:
 - Grafik perbandingan running time iteratif dan rekursif.
+
+<img src="assets/images/graph.png" alt="hasil grafik" width="500">
+
 - Diagram batang rata-rata waktu eksekusi iteratif vs rekursif.
+
+<img src="assets/images/batang.png" alt="hasil batang" width="500">
 
 ---
 
@@ -128,10 +137,17 @@ plt.show()
 
 ### Kompleksitas Waktu:
 - **Iteratif:** \( O(n \times r) \)
+
+<img src="assets/images/hitungIteratif.png" alt="perhitungan iteratif" width="500">
+
 - **Rekursif:** \( O(n) \)
 
+<img src="assets/images/hitungRekursif.png" alt="perhitungan Rekursif" width="500">
+
 ### Hasil Perbandingan:
-Pendekatan rekursif lebih efisien dibandingkan iteratif. Hal ini disebabkan algoritma iteratif memiliki kompleksitas \( O(n \times r) \), sementara rekursif hanya \( O(n) \).
+Pendekatan rekursif lebih efisien dibandingkan iteratif. Hal ini disebabkan algoritma iteratif memiliki kompleksitas \( O(n . r) \), sementara rekursif hanya \( O(n) \).
+
+<img src="assets/images/poster.png" alt="poster Rekursif" width="500">
 
 ---
 
