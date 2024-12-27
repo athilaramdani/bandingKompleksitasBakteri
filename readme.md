@@ -149,6 +149,8 @@ Pendekatan rekursif lebih efisien dibandingkan iteratif. Hal ini disebabkan algo
 
 <img src="assets/images/poster.png" alt="poster Rekursif" width="500">
 
+<img src="assets/images/poster2.png" alt="poster Rekursif" width="500">
+
 ---
 
 ## 5. Referensi
